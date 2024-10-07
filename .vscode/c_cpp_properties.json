@@ -5,12 +5,14 @@
             "includePath": [
                 "d:\\Workspace\\MySTM32\\Core",
                 "d:\\Workspace\\MySTM32\\Src",
+                "d:\\Workspace\\MySTM32\\Library",
                 "D:\\Keil5\\ARM\\ARMCLANG\\include",
                 "D:\\Keil5\\ARM\\ARMCLANG\\include\\arm_linux",
                 "D:\\Keil5\\ARM\\ARMCLANG\\include\\arm_linux_compat",
                 "D:\\Keil5\\ARM\\ARMCLANG\\include\\libcxx"
             ],
             "defines": [
+                "USE_STDPERIPH_DRIVER",
                 "__alignof__(x)=",
                 "__asm(x)=",
                 "__asm__(x)=",
