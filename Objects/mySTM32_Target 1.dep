@@ -11,7 +11,7 @@ I (Core\stm32f10x.h)(0x61605444)
 I (Core\core_cm3.h)(0x66DC8BA0)
 I (Core\system_stm32f10x.h)(0x61605444)
 F (.\Core\system_stm32f10x.h)(0x61605444)()
-F (.\Src\main.c)(0x6703D4B2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Core -I ./Src-ID:/Keil5/ARM/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD-o ./objects/main.o -MMD)
+F (.\Src\main.c)(0x6703D96A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Core -I ./Src-ID:/Keil5/ARM/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD-o ./objects/main.o -MMD)
 I (Core\stm32f10x.h)(0x61605444)
 I (Core\core_cm3.h)(0x66DC8BA0)
 I (Core\system_stm32f10x.h)(0x61605444)
