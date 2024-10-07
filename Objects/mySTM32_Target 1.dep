@@ -1,0 +1,17 @@
+Dependencies for Project 'mySTM32', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\Core\cmsis_armclang.h)(0x664BD888)()
+F (.\Core\cmsis_compiler.h)(0x664BD888)()
+F (.\Core\cmsis_version.h)(0x664BD888)()
+F (.\Core\core_cm3.h)(0x66DC8BA0)()
+F (.\Core\startup_stm32f10x_md.s)(0x61605445)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-ID:/Keil5/ARM/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"STM32F10X_MD SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (.\Core\stm32f10x.h)(0x61605444)()
+F (.\Core\system_stm32f10x.c)(0x61605444)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Core -I ./Src-ID:/Keil5/ARM/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD-o ./objects/system_stm32f10x.o -MMD)
+I (Core\stm32f10x.h)(0x61605444)
+I (Core\core_cm3.h)(0x66DC8BA0)
+I (Core\system_stm32f10x.h)(0x61605444)
+F (.\Core\system_stm32f10x.h)(0x61605444)()
+F (.\Src\main.c)(0x6703D4B2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Core -I ./Src-ID:/Keil5/ARM/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD-o ./objects/main.o -MMD)
+I (Core\stm32f10x.h)(0x61605444)
+I (Core\core_cm3.h)(0x66DC8BA0)
+I (Core\system_stm32f10x.h)(0x61605444)
