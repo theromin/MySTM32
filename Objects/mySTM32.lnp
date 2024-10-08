@@ -27,6 +27,8 @@
 ".\objects\delay.o"
 ".\objects\key.o"
 ".\objects\led.o"
+".\objects\buzzer.o"
+".\objects\lightsensor.o"
 ".\objects\main.o"
 ".\objects\stm32f10x_it.o"
 --strict --scatter ".\Objects\mySTM32.sct"

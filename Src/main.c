@@ -1,25 +1,24 @@
 #include "stm32f10x.h"                  // Device header
 
-#include "LED.h"
-#include "Key.h"
+#include "Buzzer.h"
+#include "LightSensor.h"
 
-uint8_t KeyNum;
+// uint8_t KeyNum;
 
 int main(void)
 {
-	LED_Init();
-	KeyInit();
+	Buzzer_Init();
+	LightSensor_Init();
 
 	while(1)
 	{
-		KeyNum = Key_GetNum();
-		if (KeyNum == 1)
+		if (LightSensor_Get() == 1)
 		{
-			LEDRed_Turn();
+			Buzzer_ON();
 		}
-		if (KeyNum == 2)
+		else
 		{
-			LEDYellow_Turn();
+			Buzzer_OFF();
 		}
 	}
 }
