@@ -10,6 +10,6 @@ void LEDRed_ON(void);
 void LEDRed_OFF(void);
 
 void LEDRed_Turn(void);
-void LEDBlue_Turn(void);
+void LEDYellow_Turn(void);
 
 #endif

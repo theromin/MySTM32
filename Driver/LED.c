@@ -41,7 +41,7 @@ void LEDRed_Turn(void)
     }
 }
 
-void LEDBlue_Turn(void)
+void LEDYellow_Turn(void)
 {
     if(GPIO_ReadOutputDataBit(GPIOA,GPIO_Pin_1) == 0)
     {
