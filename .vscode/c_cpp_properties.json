@@ -6,6 +6,7 @@
                 "d:\\Workspace\\MySTM32\\Core",
                 "d:\\Workspace\\MySTM32\\Src",
                 "d:\\Workspace\\MySTM32\\Library",
+                "d:\\Workspace\\MySTM32\\Driver",
                 "D:\\Keil5\\ARM\\ARMCLANG\\include",
                 "D:\\Keil5\\ARM\\ARMCLANG\\include\\arm_linux",
                 "D:\\Keil5\\ARM\\ARMCLANG\\include\\arm_linux_compat",
