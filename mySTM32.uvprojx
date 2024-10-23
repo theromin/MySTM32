@@ -729,6 +729,16 @@
               <FileType>5</FileType>
               <FilePath>.\Driver\OLED_Font.h</FilePath>
             </File>
+            <File>
+              <FileName>InfraredSensor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Driver\InfraredSensor.c</FilePath>
+            </File>
+            <File>
+              <FileName>InfraredSensor.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Driver\InfraredSensor.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

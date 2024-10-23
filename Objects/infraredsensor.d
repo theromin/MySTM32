@@ -1,4 +1,5 @@
-./objects/main.o: Src\main.c Core\stm32f10x.h Core\core_cm3.h \
+./objects/infraredsensor.o: Driver\InfraredSensor.c \
+  Driver\InfraredSensor.h Core\stm32f10x.h Core\core_cm3.h \
   Core\system_stm32f10x.h Src\stm32f10x_conf.h Library\stm32f10x_adc.h \
   Library\stm32f10x_bkp.h Library\stm32f10x_can.h \
   Library\stm32f10x_cec.h Library\stm32f10x_crc.h \
@@ -10,5 +11,4 @@
   Library\stm32f10x_rcc.h Library\stm32f10x_rtc.h \
   Library\stm32f10x_sdio.h Library\stm32f10x_spi.h \
   Library\stm32f10x_tim.h Library\stm32f10x_usart.h \
-  Library\stm32f10x_wwdg.h Library\misc.h Driver\OLED.h \
-  Driver\InfraredSensor.h
+  Library\stm32f10x_wwdg.h Library\misc.h

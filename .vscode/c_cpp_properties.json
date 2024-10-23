@@ -13,6 +13,7 @@
                 "D:\\Keil5\\ARM\\ARMCLANG\\include\\libcxx"
             ],
             "defines": [
+                "STM32F10X_MD",
                 "USE_STDPERIPH_DRIVER",
                 "__alignof__(x)=",
                 "__asm(x)=",

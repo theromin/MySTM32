@@ -4,6 +4,7 @@
         "led.h": "c",
         "stm32f10x.h": "c",
         "delay.h": "c",
-        "lightsensor.h": "c"
+        "lightsensor.h": "c",
+        "stm32f10x_conf.h": "c"
     }
 }
